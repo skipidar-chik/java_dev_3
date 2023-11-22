@@ -1,6 +1,6 @@
 public class WordCounter {
     public static void analyzeText(String text, String[] words) {
-        if (text == null || words == null || words.length == 0) {
+        if (text.isEmpty() || words == null || words.length == 0) {
             System.out.println("Помилкові вхідні дані");
             return;
         }
